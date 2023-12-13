@@ -1,0 +1,7 @@
+@import "./styles/variables";
+@import "./styles/reset";
+
+body {
+  background-image: linear-gradient(to top, #a8edea 0%, #9fdbe6 100%);
+  min-height: 100vh;
+}

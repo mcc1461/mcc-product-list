@@ -1,0 +1,27 @@
+@import  "../../styles/variables.scss";
+@import  "../../styles/reset.scss";
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+li {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+    background-color: $btnHoverColor;
+    color : #fff;
+    font-weight: bolder;
+  }
+}
